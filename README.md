@@ -6,6 +6,8 @@
 
 [>> English Documentation <<](https://rtp2httpd.com/en/)
 
+[2026-10-06] 更新文件iptv-channels.m3u8，该文件适用于四川移动家庭宽带环境，共包含227个频道，其中包含凤凰卫视在内的215个国内频道（rtp/udp内网转发），12个海外频道（如CNBC、BBC、Bloomberg、翡翠台等，有CDN/Cloud加速）
+
 rtp2httpd 是一个 IPTV 转发服务器，支持将组播 RTP/UDP、RTSP 转换为 HTTP 流，或将 HLS 流从内网代理到外网。
 
 本项目专为中国大陆 IPTV 环境进行优化，实现了运营商级的 FCC（[Fast Channel Change](https://blog.csdn.net/yangzex/article/details/131328837)）快速换台协议，可作为 `udpxy` 和 `msd_lite` 的无缝替代，为 IPTV 用户提供接近原生机顶盒的观看体验。
